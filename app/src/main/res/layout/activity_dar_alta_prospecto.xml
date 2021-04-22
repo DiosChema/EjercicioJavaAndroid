@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.Prospecto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue">
+
+        <ImageButton
+            android:id="@+id/darAltaProspectoRegresar"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:srcCompat="@drawable/abc_vector_test"
+            android:background="@color/transparent"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="22sp"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="@string/prospectoDarAlta"
+            android:layout_marginRight="45dp"
+            android:layout_marginEnd="45dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prospectoNombre">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/darAltaProspectoNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:textSize="25sp"
+                    android:maxLength="15"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prospectoApellidoP">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/darAltaProspectoApellidoP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:textSize="25sp"
+                    android:maxLength="15"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prospectoApellidoM">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/darAltaProspectoApellidoM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:textSize="25sp"
+                    android:maxLength="15"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prospectoCalle">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/darAltaProspectoCalle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:textSize="25sp"
+                    android:maxLength="25"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prospectoNumero">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/darAltaProspectoNumero"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:textSize="25sp"
+                    android:maxLength="9"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prospectoColonia">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/darAltaProspectoColonia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:textSize="25sp"
+                    android:maxLength="20" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prospectoCodigoPostal">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/darAltaProspectoCodigoPostal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:textSize="25sp"
+                    android:maxLength="6" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prospectoTelefono">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/darAltaProspectoTelefono"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:textSize="25sp"
+                    android:maxLength="18"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prospectoRFC">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/darAltaProspectoRFC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:textSize="25sp"
+                    android:maxLength="13"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/darAltaDocumento"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginEnd="15dp"/>
+
+                <ImageButton
+                    android:id="@+id/darAltaProspectoBuscarDocumento"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    app:srcCompat="@android:drawable/ic_menu_search" />
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/darAltaProspectoDocumentos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <ImageButton
+                android:id="@+id/darAltaProspectoAnadir"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                app:srcCompat="@android:drawable/ic_input_add"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/transparent"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

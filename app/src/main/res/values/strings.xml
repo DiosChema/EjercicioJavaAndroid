@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ConCredito</string>
+    <string name="prospectoNombre">Nombre</string>
+    <string name="prospectoApellidoP">Primer apellido</string>
+    <string name="prospectoApellidoM">Segundo apellido</string>
+    <string name="prospectoCalle">Calle</string>
+    <string name="prospectoNumero">Numero</string>
+    <string name="prospectoColonia">Colonia</string>
+    <string name="prospectoCodigoPostal">Código Postal</string>
+    <string name="prospectoTelefono">Teléfono</string>
+    <string name="prospectoRFC">RFC</string>
+    <string name="prospectoRechazo">Observación</string>
+    <string name="prospectoDarAlta">Dar alta prospecto</string>
+    <string name="darAltaProspectoNombre">Ingresa un nombre valido</string>
+    <string name="darAltaProspectoApellido">Ingresa un apellido valido</string>
+    <string name="darAltaProspectoNumero">Ingresa un numero de casa valido</string>
+    <string name="darAltaProspectoCalle">Ingresa una calle valida</string>
+    <string name="darAltaProspectoColonia">Ingresa una colonia valida</string>
+    <string name="darAltaProspectoCodigoPostal">Ingresa un codigo postal valido</string>
+    <string name="darAltaProspectotelefono">Ingresa un telefono valido</string>
+    <string name="darAltaProspectoRFC">Ingresa un RFC valido</string>
+    <string name="actualizarProspectoAutorizar">Autorizar</string>
+    <string name="actualizarProspectoRechazar">Rechazar</string>
+    <string name="observacionConfirmar">Confirmar</string>
+    <string name="observacionCancelar">Cancelar</string>
+    <string name="darAltaDocumento">Documentos</string>
+    <string name="darAltaDocumentoSeleccionar">Selecciona el archivo a subir</string>
+    <string name="darAltaDocumentoError">Ocurrio un error, favor de contactar con el desarrollador</string>
+</resources>
